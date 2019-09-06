@@ -27,7 +27,7 @@ public class Main {
 	private static Scanner scanner = new Scanner(System.in);
 	private Connection connection;
 	private String sql;
-	
+	private String data="";
 	private PreparedStatement prepareStmt;
 	private Integer count;
 	private Integer id;
